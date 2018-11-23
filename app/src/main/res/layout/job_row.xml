@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryLight"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/jobIdRowTextView"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/jobPositionTitleRowTextView"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:text="Job title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/jobOrganizationNameRowTextView"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:text="Job organization"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/jobStartDateRowTextView"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:text="Posted: Yesterday"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/jobEndDateRowTextView"
+                android:text="Ends in 12 days"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/jobRateIntervalCodeRowTextView"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/jobMinimumRowTextView"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/jobMaximumRowTextView"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/jobsLocationRowTextView"
+                android:layout_width="match_parent"
+                android:text="Locations"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/jobPayTextViewFull"
+                    android:layout_width="0dp"
+                    android:text="Salary"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_weight="2.5"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/colorLightGreen"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/applyNowButton"
+                    android:layout_width="0dp"
+                    android:text="More"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorDarkGreen"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/jobUrlRowTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

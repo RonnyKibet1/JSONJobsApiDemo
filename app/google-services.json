@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878733523978",
+    "firebase_url": "https://govtjbs-c9c92.firebaseio.com",
+    "project_id": "govtjbs-c9c92",
+    "storage_bucket": "govtjbs-c9c92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878733523978:android:acbb2e217e85cff7",
+        "android_client_info": {
+          "package_name": "com.ronsoftstudios.governmentjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878733523978-ai723ps0dmnaangaalglhj1kbijsje4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ronsoftstudios.governmentjobs",
+            "certificate_hash": "144f93ea0b54976b0950dbc14a1567df117fcdb6"
+          }
+        },
+        {
+          "client_id": "878733523978-l9irjm39au1a183fb9qn3aqi4tv1vi66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLnUbginatQxD-yRURVjcTajYxS8LjnA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878733523978-l9irjm39au1a183fb9qn3aqi4tv1vi66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
